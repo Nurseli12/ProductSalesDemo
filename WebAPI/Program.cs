@@ -22,7 +22,7 @@ namespace WebAPI
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
             /* what is this code?
-             * Ýf we want to do diffrence IoC construction. We require to write this code.
+             * If we want to do diffrence IoC construction. We require to write this code.
              We are building other IoC constructions with this code
             Speaking of which what is this other IoC construction ?
             => Autofac, Ninject, CastleWindsor, StructureMap....*/
